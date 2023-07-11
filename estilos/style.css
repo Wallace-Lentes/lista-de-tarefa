@@ -1,0 +1,20 @@
+.conteiner{
+    width: 660px;
+    height: 60vh;
+    background-color: antiquewhite;
+}
+.detalhe_prancheta{
+    position: relative;
+    top: -60px;
+    left: calc(50% - 123.5px);
+    z-index: 2;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -110px;
+    border: 40px solid var(--blue900);
+    border-radius: 12px;
+    background-color: var(--white);
+}
