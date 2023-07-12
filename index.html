@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./estilos/style.css">
     <link rel="stylesheet" href="./estilos/reset.css">
-    <script src="./javaScript/script.js" type="module" defer></script>
     <title>Lista de tarefas</title>
 </head>
 
@@ -23,15 +22,14 @@
             </section>
 
             <section class="list">
-                <form action="" class="form_new_task">
-                    <input type="text" class="new_task" 
-                    id="tituloTarefa"
-                    aria-label="input para criar nova nota"
+                <form class="form_new_task">
+                    <input type="text" class="new_task" id="tituloTarefa" aria-label="input para criar nova nota"
                         placeholder="Nova Tarefa">
                     <span role="button" aria-label="baotao de adicionar nova nota" id="criarTarefa">
                         <img src="./imagens/plus.svg" alt="plus">
                     </span>
                 </form>
+
                 <ul class="content-list">
                     <li class="task">
                         <p>Comprar pão</p>
@@ -45,7 +43,7 @@
                         </div>
                         <div class="button_options invisivel" id="more_options ">
                             <span class="btn btn-edit-task" aria-label="Botão alterar o titulo da tarefa" role="button">
-                                <img src="./imagens/pencilSimple.svg" alt="lapis" />
+                                <img src="./imagens/pencil-simple.svg" alt="lapis" />
                             </span>
                             <span class="btn btn-delete-task" aria-label="Botão excluir tarefa" role="button">
                                 <img src="./imagens/trash-simple.svg" alt="lixeira" />
@@ -78,7 +76,7 @@
         </div>
 
     </main>
-
+    <script src="./javaScript/script.js" type="module"></script>
 </body>
 
 </html>
